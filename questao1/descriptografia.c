@@ -10,7 +10,7 @@ int main(void) {
   char linha[100]; // Tamanho máximo da linha
   FILE *arquivo;
 
-  arquivo = fopen("testes.txt", "r");
+  arquivo = fopen("criptografado.txt", "r");
   if (arquivo == NULL) {
     printf("Erro ao abrir o arquivo.\n");
     return 1;
